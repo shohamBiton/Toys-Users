@@ -79,7 +79,7 @@ router.delete("/:idDel", auth, async (req, res) => {
   }
   catch (err) {
     console.log(err)
-    res.status(500).json({ msg: "err", err })
+    res.status(500).json({ msg: "err!", err })
   }
 })
 
