@@ -19,7 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!-- css only- -->
+    <!-- css-only -->
     <link rel="stylesheet" href="index.css">
 
     <title>TOYS | API</title>
@@ -72,7 +72,7 @@
             <table class="table table-bordered table-striped ">
                 <h4 class="mb-3 text-center bigDomain">
                     <span class="text-info fw-bolder">Domain:</span>
-                    <span class="text-info text" id="Domain">https://api-toys.cyclic.app</span>
+                    <span class="text-info text" id="Domain">https://shohamtoys.onrender.com</span>
                     <button class="btn mx-2 copyBtn" id="domainbtn"><i class="bi bi-files"></i></button>
                 </h4>
 
@@ -108,13 +108,13 @@ fullName: {
 firstName: Shoham,
 lastName: Bitton
 },
-"email": "ShohamBitton@gabay.com",
-"password": "Shoham31kd3Fg8"
+"email": "ShohamBitton@gmail.com",
+"password": "Shoham3224"
 } </pre>
                         </td>
                         <td>Add a new user to the data base ,<a class="text-decoration-none"
                                 href="https://github.com/ShohamgD/ToysProject/blob/main/api/validation/userValidation.js">if
-                                you want to see the template of valid user.</a></td>
+                                you want to see the template of valid user in fnuction ValidUser.</a></td>
                     </tr>
                     <tr>
                         <td>POST (login)</td>
@@ -122,8 +122,8 @@ lastName: Bitton
                         <td>
                             <pre>
 {
-"email": "ShohamBitton@gabay.com",
-"password": "Shoham31kd3Fg8"
+"email": "ShohamBitton@gmail.com",
+"password": "Shoham3224"
 } </pre>
                         </td>
                         <td>User login, if the email and password are correct the server will respond with a token,<br>
@@ -149,8 +149,8 @@ fullName: {
 firstName: Shoham,
 lastName: Bitton
 },
-"email": "ShohamBitton@gabay.com",
-"password": "Shoham31kd3Fg8"
+"email": "ShohamBitton@gmail.com",
+"password": "Shoham3224"
                              </pre>
                         </td>
                         <td>Update your user in the data base,<strong> Admin token can edit every user data , and user
@@ -191,7 +191,7 @@ lastName: Bitton
             <table class="table table-bordered table-striped mb-3">
                 <h4 class="mb-3 text-center bigDomain">
                     <span class="text-info fw-bolder">Domain:</span>
-                    <span class="text-info text" id="Domain">https://api-toys.cyclic.app</span>
+                    <span class="text-info text" id="Domain">https://shohamtoys.onrender.com</span>
                     <button class="btn mx-2 copyBtn" id="domainbtn2"><i class="bi bi-files"></i></button>
                 </h4>
                 <thead class="table-info">
@@ -205,13 +205,13 @@ lastName: Bitton
                 <tbody>
                     <tr>
                         <td>GET</td>
-                        <td><a href="https://api-toys.cyclic.app//toys">/toys</a></td>
+                        <td><a href="https://shohamtoys.onrender.com/toys">/toys</a></td>
                         <td class="text-center">none</td>
                         <td>Get a list of all the toys, will present 10 results per page.</td>
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td><a href="https://api-toys.cyclic.app/toys/search?s=doll">/toys/search?s=doll</a></td>
+                        <td><a href="https://shohamtoys.onrender.com/toys/search?s=doll">/toys/search?s=doll</a></td>
                         <td class="text-center">none</td>
                         <td>search for a toy by searching follwing name or info after the "s=", it will present 10
                             results per page.
@@ -219,7 +219,7 @@ lastName: Bitton
                     </tr>
                     <tr>
                         <td>GET</td>
-                        <td><a href="https://api-toys.cyclic.app/toys/category/doll">/toys/category/:catName</a></td>
+                        <td><a href="https://shohamtoys.onrender.com/toys/category/doll">/toys/category/:catName</a></td>
                         <td class="text-center">none</td>
                         <td>Get a list of all the toys in toys <strong>category</strong>, it will present 10 results per
                             page.</td>
@@ -244,7 +244,7 @@ lastName: Bitton
                         <td>Add a new toy to the data base, <strong>You need a token for this query ,</strong><br>
                             <a class="text-decoration-none"
                                 href="https://github.com/ShohamgD/ToysProject/blob/main/api/validation/toyValidation.js">if
-                                you want to see the template of valid toy</a>
+                                you want to see the template of valid toy in toyValidation function</a>
                         </td>
                     </tr>
                     <tr>
