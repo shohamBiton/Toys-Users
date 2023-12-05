@@ -14,6 +14,9 @@ table{
   border-radius: 50px;
   border: red 2px;
 }
+.divRadius{
+  border-radius: 50px;
+}
   .bigDomain{
     font-size: 1.8em;
     font-family: "Pattaya", sans-serif;
